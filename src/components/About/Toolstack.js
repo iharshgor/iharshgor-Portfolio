@@ -2,17 +2,17 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
   SiPostman,
-  SiSlack,
   SiVercel,
-  SiMacos,
 } from "react-icons/si";
+import { FaGitlab } from "react-icons/fa6";
+import { FaJenkins } from "react-icons/fa";
 import { VscVscode } from "react-icons/vsc";
 
 function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <SiMacos />
+        <FaJenkins />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <VscVscode />
@@ -21,7 +21,7 @@ function Toolstack() {
         <SiPostman />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSlack />
+        <FaGitlab />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiVercel />
