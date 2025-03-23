@@ -9,7 +9,6 @@ function Type() {
           "Software Developer",
           "DevOps Engineer",
           "Cloud Architect",
-          "Freelancer",
         ],
         autoStart: true,
         loop: true,
